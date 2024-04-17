@@ -10,7 +10,7 @@
 :root {
     --cor0: #c5ebd6; /* teste de root */
 }
- 
+
 *{
     margin: 0px;
     padding: 0px;
@@ -81,7 +81,7 @@ a.eterno::after {
  }
 
  h1, h2 {
-     font-family: 'Android';   
+     font-family: 'Android', cursive;   
      text-align: justify;
      color: #003a1a;
      font-weight: normal;
