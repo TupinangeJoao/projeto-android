@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Android';
-    src: url(/fontes/idroids.otf);
+    src: url(/fontes/Android.ttf) format(truetype);
 }
 
 
@@ -196,6 +196,11 @@ main a:hover {
 
      }
 
+     aside > ul {
+     font-size: 1em;   
+    }
+
+
  }
 
  @media (max-width: 450px) {
@@ -218,7 +223,9 @@ main a:hover {
     aside {
      margin-top: 10px;
      background-color: #84E1AD;
-     border-radius: 8px 8px 8px 8px;
-     
+     border-radius: 8px 8px 8px 8px;     
  }
+    aside > ul {
+     font-size: 1em;   
+    }
  }
