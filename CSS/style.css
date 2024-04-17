@@ -84,7 +84,7 @@ a.eterno::after {
 
  h1, h2
  {
-     font-family: 'idroids';   
+     font-family: 'idroids', sans-serif;   
      text-align: justify;
      color: #003a1a;
      font-weight: normal;
@@ -92,7 +92,7 @@ a.eterno::after {
 
  h2 {
      background: linear-gradient(50deg, rgb(112, 225, 112), white);
-     font-family: 'idroids';
+     font-family: 'idroids', sans-serif;
  }
 
  main {
