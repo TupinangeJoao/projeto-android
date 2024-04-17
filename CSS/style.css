@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 @font-face {
-    font-family: 'idroids';
+    font-family: 'Android';
     src: url(/fontes/idroids.otf);
 }
 
@@ -82,9 +82,8 @@ a.eterno::after {
      text-align: justify;
  }
 
- h1, h2
- {
-     font-family: 'idroids', sans-serif;   
+ h1, h2 {
+     font-family: 'Android';   
      text-align: justify;
      color: #003a1a;
      font-weight: normal;
@@ -92,7 +91,7 @@ a.eterno::after {
 
  h2 {
      background: linear-gradient(50deg, rgb(112, 225, 112), white);
-     font-family: 'idroids', sans-serif;
+     font-family: 'Android';
  }
 
  main {
@@ -144,6 +143,7 @@ main a:hover {
      background-color: #84E1AD;
      border-radius: 8px 8px 8px 8px;
      padding: 5px;
+     text-align: justify;
  }
 
  aside > h2 {
