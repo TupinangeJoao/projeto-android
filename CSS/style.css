@@ -1,15 +1,11 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'Android';
-    src: url(../fontes/Android.ttf) format(truetype);
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-
-
-
+@font-face {
+    font-family: 'Android';
+    src: url(../fontes/Android.otf) format(opentype);
+}
 
 :root {
     --cor0: #c5ebd6; /* teste de root */
