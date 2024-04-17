@@ -2,9 +2,9 @@
 
 @font-face {
     font-family: 'Android';
-    src: url(/fontes/Android.ttf) format(truetype);
+    src: url(../fontes/Android.ttf) format(truetype);
 }
- 
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
@@ -135,30 +135,47 @@ main a:hover {
 
  .video {
      background-color: #003a1a;
-     margin-left: -20px;
-     margin-right: -20px;
-     height: 415px;
+     margin: 0px -20px 30px -20px;
+     padding: 20px;
+     padding-bottom: 56%;
+     position: relative;
+ }
+
+ .video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
  }
 
  aside {
-     margin-top: 10px;
      background-color: #84E1AD;
-     border-radius: 8px 8px 8px 8px;
-     padding: 5px;
-     text-align: justify;
+     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.192);
+     border-radius: 10px;
+     padding: 10px;
  }
 
- aside > h2 {
+ aside > h3 {
      background: linear-gradient(rgb(0, 58, 0) 100%, white 0%);
-     border-radius: 8px 8px 0px 0px;
+     border-radius: 10px 10px 0px 0px;
+     padding: 10px;
      font-family: Arial, Helvetica, sans-serif;
      color: white;
      font-size: 1em;
-     margin: -5px -5px 5px -5px;
+     margin: -10px -10px 0px -10px;
+     text-align: justify;
  }
 
+aside > p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
  aside ul {
-    list-style-type: '\00A0\1F5F8\00A0\00A0';
+    list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
     columns: 2;
  }
@@ -198,11 +215,6 @@ main a:hover {
 
      }
 
-     aside > ul {
-     font-size: 11px;   
-    }
-
-
  }
 
  @media (max-width: 450px) {
@@ -221,13 +233,4 @@ main a:hover {
      font-size: 0.4em;
      max-height: 50px;
      }
-
-    aside {
-     margin-top: 10px;
-     background-color: #84E1AD;
-     border-radius: 8px 8px 8px 8px;     
- }
-    aside > ul {
-     font-size: 11px;   
-    }
  }
